@@ -10,6 +10,7 @@ function HeroDynamic() {
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
+        {/* GET STARTED BUTTON */}
         <Button
           className="btns"
           buttonStyle="btn--outline"
@@ -18,6 +19,7 @@ function HeroDynamic() {
           GET STARTED
         </Button>
 
+        {/* WATCH TRAILER BUTTON */}
         <Button
           className="btns"
           buttonStyle="btn--primary"
